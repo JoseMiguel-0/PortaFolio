@@ -171,6 +171,11 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+.header-color {
+ background-image: url(../img/fondo_header_2.0.jpg);
+ background-position: center;
+}
+
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
