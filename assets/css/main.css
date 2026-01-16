@@ -697,6 +697,7 @@ section,
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../img/fondo_header_2.0.jpg);
 }
 
 .hero img {
