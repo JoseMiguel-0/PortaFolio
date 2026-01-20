@@ -479,8 +479,8 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--accent-color);
-  color: var(--contrast-color);
+  background: white;
+  color: rgb(255,151,0);
   line-height: 1;
   margin: 0 4px;
   border-radius: 50%;
@@ -491,7 +491,7 @@ h6 {
 }
 
 .footer .social-links a:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background: color-mix(in srgb,black  , transparent 20%);
   text-decoration: none;
 }
 
@@ -550,7 +550,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: white;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -564,7 +564,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  background-color: color-mix(in srgb, rgb(255,151,0), transparent 20%);
   color: var(--contrast-color);
 }
 
