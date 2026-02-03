@@ -25,7 +25,7 @@
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #ffffff;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #18d26e;
+  --accent-color: #ffe100;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #1a1a1a;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -37,7 +37,7 @@
 :root {
   --nav-color: #fafafa;
   /* The default color of the main navmenu links */
-  --nav-hover-color: #18d26e;
+  --nav-hover-color: #ff7b00;
   /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #1a1a1a;
   /* Used as the background color for mobile navigation menu */
@@ -275,7 +275,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: #ffff00;
   }
 
   .navmenu .dropdown ul {
@@ -405,7 +405,7 @@ h6 {
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color: #ff7b00;
   }
 
   .navmenu .active i,
@@ -890,7 +890,7 @@ section,
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--accent-color);
+  background-color: #ffe600;
 }
 
 /*--------------------------------------------------------------
