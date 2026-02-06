@@ -81,7 +81,8 @@ body {
 }
 
 a:hover {
-  cursor: url('../img/cursor_ON.cur'), auto; /* El cursor cambia al interactuar */
+  cursor: url('../img/cursor_ON.cur'), auto;
+  /* El cursor cambia al interactuar */
 }
 
 a {
